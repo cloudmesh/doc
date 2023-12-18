@@ -19,6 +19,5 @@ help:
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-
 watch:
 	watchmedo shell-command --command='make html' --recursive ../../cloudmesh-*
