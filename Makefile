@@ -2,17 +2,17 @@ all: html epub
 
 
 epub:
-	cd docs; make epub
+	cd content; make epub
 
 html:
-	cd docs; make html
+	cd content; make html
 
 watch:
-	cd docs; make watch
+	cd content; make watch
 
 view:
-	open docs/build/html/index.html
+	open content/build/html/index.html
 
 eview:
-	open docs/build/epub/cloudmesh.epub
+	open content/build/epub/cloudmesh.epub
 
